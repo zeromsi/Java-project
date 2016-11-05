@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+    <bean id="CategoryDAO" class="com.msi.implementation.CategoryDAOImplementation">
+    </bean>
+    <bean id="SupplierDAO" class="com.msi.implementation.SupplierDAOImplementation">
+    </bean>
+    <bean id="ProductDAO" class="com.msi.implementation.ProductDAOImplementation">
+    </bean>
+    <bean id="EmployeeCategoryDAO" class="com.msi.implementation.EmployeeCategoryDAOImplementation">
+    </bean>
+    <bean id="EmployeeDAO" class="com.msi.implementation.EmployeeDAOImplementation">
+    </bean>
+    <bean id="getBestEightProductIcon" class="com.msi.adminview.getBestEightProductIcon">
+    </bean>
+    <bean id="SpecificSupplierAndProducts" class="com.msi.adminview.SpecificSupplierAndProducts">
+    </bean>
+    <bean id="StockDAO" class="com.msi.implementation.StockDAOImplementation">
+    </bean>
+    <bean id="LoginDAO" class="com.msi.implementation.LoginDAOImplementation">
+    </bean>
+
+</beans>
